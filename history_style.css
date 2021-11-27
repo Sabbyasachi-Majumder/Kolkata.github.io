@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Newsreader');
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	
+	background-image: url(img3.jpg) ;
+	background-color: rgba(1, 13, 21, 0.5);
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	color: #FFFFFF;
+	
+}
+.head{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15rem;
+	font-size: 3rem;
+	color: #EDF8FF;
+	font-family: 'Newsreader';
+    background-color: rgba(1, 13, 21, 0.5);
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 6rem;
+	align-items: stretch;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+a{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	font-size: 1rem;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 4rem;
+	margin: 10px;
+	background-color: rgba(255, 255, 255, .8);
+	color: #F2000F ;
+	text-decoration: none;
+	border-radius: .5rem;
+}
+.current{
+	background-color: #910303;
+	color: #D1E5FF;
+}
+a:hover{
+	text-decoration: underline;
+	color: #FDFEFE ;
+	background-color: rgba(40, 55, 71, 1.0);
+}
+.intro{
+	font-size: 1.5rem;
+	padding: 2rem 2rem 2rem 2rem;
+	background-color: rgba(1, 13, 21, 0.5);;
+}
+.intro>p{
+	padding: 2rem 2rem 4rem 2rem;
+	line-height: 3rem;
+	text-align: justify;
+}
+.foot{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	background-color: rgba(1, 13, 21, 0.5);
+}
